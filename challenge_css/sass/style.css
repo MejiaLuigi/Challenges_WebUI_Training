@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=League+Gothic&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+#content {
+  height: 100%;
+  width: 80%;
+  background-image: url("../img/lil-peep-background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#article-content {
+  height: 350px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#der {
+  width: 290px;
+  margin: 0px 0px 0px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#izq {
+  width: 150px;
+  margin: 0px 8px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 105px;
+}
+
+.title-echoes {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: rgb(230, 230, 230);
+  text-shadow: 4px 4px 4px #FF6EC7;
+  background: linear-gradient(to right, #000000, rgba(63, 62, 62, 0.4509803922));
+  margin: 0px;
+}
+
+.subtitle-generation {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffbf00;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.main-text {
+  color: #FF6EC7;
+  font-size: 20px;
+  font-family: "Merriweather";
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: 100px;
+  font-style: normal;
+}
+
+.main-text-2 {
+  color: #FF6EC7;
+  font-size: 20px;
+  font-family: "Crimson Text";
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: 100px;
+  font-style: normal;
+}
+
+hr {
+  color: rgb(230, 230, 230);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.text, .text-terciary {
+  color: #F9F9F9;
+  font-size: 15px;
+  font-family: "Crimson Text";
+  font-weight: 100px;
+  font-style: normal;
+}
+
+.text-secundary {
+  color: #ffbf00;
+  font-size: 20px;
+  font-family: "Cormorant Garamond";
+  text-shadow: 4px 4px 4px #4E2A8E;
+}
+
+.text-terciary {
+  text-shadow: 2px 2px 4px #F9F9F9;
+}/*# sourceMappingURL=style.css.map */

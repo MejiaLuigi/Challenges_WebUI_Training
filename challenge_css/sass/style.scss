@@ -1,0 +1,135 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+main{
+   width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+#content{
+    height: 100%;
+    width: 80%;
+    background-image: url('../img/lil-peep-background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=League+Gothic&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+#article-content{
+    height: 350px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#der{
+    width: 290px;
+    margin: 0px 0px 0px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#izq{
+    width: 150px;
+    margin: 0px 8px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 105px;
+}
+
+// Variables
+$font-family-echoes: "Bebas Neue", sans-serif;
+$font-family-generation: "Roboto Condensed", sans-serif;
+$font-family-main-text:  "Merriweather";
+$font-family-text:  "Crimson Text";
+$font-family-text-2:  "Cormorant Garamond";
+$font-size-large: 48px;
+$font-size-small: 36px;
+$font-size-xs: 20px;
+$font-size-xxs: 15px;
+$font-weight: bold;
+$shadow-color: rgba(0, 0, 0, 0.5); // Color de sombra sutil
+
+// ------COLORS---------
+$color-echoes: rgb(230, 230, 230); // Morado oscuro
+$color-generation: #ffbf00; // Azul profundo
+$color-primary : #FF6EC7;
+$color-secundary : #001F66;
+$color-terciary : #4E2A8E;
+$color-gray: #333333;
+$color-gray-secundary: #BFBFBF;
+$color-white: #F9F9F9;
+$color-black: #000000;
+
+// Estilos
+.title-echoes {
+  font-family: $font-family-echoes;
+  font-size: $font-size-large;
+  font-weight: $font-weight;
+  color: $color-echoes;
+  text-shadow: 4px 4px 4px ($color-primary);
+  background: linear-gradient(to right, $color-black, #3f3e3e73);
+  margin: 0px;
+}
+
+.subtitle-generation {
+  font-family: $font-family-generation;
+  font-size: $font-size-small;
+  font-weight: $font-weight;
+  color: $color-generation;
+  text-shadow: 2px 2px 4px $color-black;
+}
+
+
+.main-text{
+    color: $color-primary;
+    font-size: $font-size-xs;
+    font-family: $font-family-main-text;
+    text-shadow: 2px 2px 4px ($color-black);
+    font-weight: 100px;
+    font-style: normal;
+}
+
+.main-text-2{
+    color: $color-primary;
+    font-size: $font-size-xs;
+    font-family: $font-family-text;
+    text-shadow: 2px 2px 4px ($color-black);
+    font-weight: 100px;
+    font-style: normal;
+}
+
+hr{
+    color: $color-echoes;
+    text-shadow: 2px 2px 4px ($color-black);
+}
+
+.text, .text-terciary{
+    color: $color-white;
+    font-size: $font-size-xxs;
+    font-family: $font-family-text;
+    font-weight: 100px;
+    font-style: normal;
+}
+
+.text-secundary{
+    color: $color-generation;
+    font-size: $font-size-xs;
+    font-family: $font-family-text-2;
+    text-shadow: 4px 4px 4px $color-terciary;
+}
+
+.text-terciary{
+    text-shadow: 2px 2px 4px $color-white;
+}
+
